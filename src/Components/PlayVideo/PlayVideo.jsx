@@ -35,7 +35,7 @@ const playVideo = () => {
         <img src={jack} alt="" />
         <div>
           <p>Rexdev</p>
-          <span>1m subscribers</span>
+          <span>1M subscribers</span>
         </div>
         <button>Subscribe</button>
       </div>
@@ -43,7 +43,58 @@ const playVideo = () => {
         <p>Channel that makes learning Easy</p>
         <p>Subscribe Rexxydev to watch More tutorials on web development</p>
         <hr />
-        <h4></h4>
+        <h4>130 Comments</h4>
+        <div className="comment">
+          <img src={user_profile} alt="" />
+          <div>
+            <h3>
+              jack Nicholson <span>1 day ago</span>
+            </h3>
+            <p>
+              A global computer network providing a variety of information and
+              interconnected networks
+            </p>
+            <div className="comment-action">
+              <img src={like} alt="" />
+              <span>244</span>
+              <img src={dislike} alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="comment">
+          <img src={user_profile} alt="" />
+          <div>
+            <h3>
+              jack Nicholson <span>1 day ago</span>
+            </h3>
+            <p>
+              A global computer network providing a variety of information and
+              interconnected networks
+            </p>
+            <div className="comment-action">
+              <img src={like} alt="" />
+              <span>244</span>
+              <img src={dislike} alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="comment">
+          <img src={user_profile} alt="" />
+          <div>
+            <h3>
+              jack Nicholson <span>1 day ago</span>
+            </h3>
+            <p>
+              A global computer network providing a variety of information and
+              interconnected networks
+            </p>
+            <div className="comment-action">
+              <img src={like} alt="" />
+              <span>244</span>
+              <img src={dislike} alt="" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
